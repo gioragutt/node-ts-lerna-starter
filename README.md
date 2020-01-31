@@ -4,6 +4,15 @@ This starter contains what you need to start developing `nodejs` using `typescri
 A personal perference I have is to use `lerna` for seperating to modules,
 Even for smaller projects.
 
+# Getting started
+
+```bash
+git clone git@github.com:gioragutt/node-ts-lerna-starter.git <project name>
+cd <project name>
+npm i
+./create-package.sh main
+```
+
 # create-package.sh
 
 This scripts handles the boilerplate of creating a new package.
